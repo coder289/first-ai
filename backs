@@ -1,0 +1,31 @@
+import random
+
+class Calculator:
+     def __init__(self, num1, num2):
+         self.num1 = int(input("num1:"))
+         self.num2 = int(input("num2:"))
+
+     def add(self):
+         return self.num2 + self.num1
+
+     def subtract(self):
+         return self.num1-self.num2
+
+     def multiply(self):
+         return self.num2*self.num1
+
+Adamya = Calculator(int(input("sum or sub or divide:")))
+
+print(Adamya.add())
+print(Adamya.subtract())
+print(Adamya.multiply())
+
+Admya = ["Ayush", "Adamya"]
+try:
+     print(Admya[1])
+except Exception as e:
+     print("This is an error", e)
+
+
+
+
